@@ -1,0 +1,37 @@
+{
+  "name": "CodeIntelliSense",
+  "displayName": "CodeIntelliSense",
+  "description": "Enables typescript@next to power VS Code's built-in JavaScript and TypeScript support",
+  "icon": "documentation/logo.png",
+  "private": true,
+  "publisher": "1194979849",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "scripts": {
+    "bump-version": "npm install typescript@next && node ./build/updatePackageVersion.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YLQZ/CodeIntelliSense.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YLQZ/CodeIntelliSense/issues"
+  },
+  "keywords": [
+    "JavaScript",
+    "TypeScript",
+    "js",
+    "ts",
+    "nightly"
+  ],
+  "author": "余生",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.6.0-dev.20190716"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.7"
+  }
+}
